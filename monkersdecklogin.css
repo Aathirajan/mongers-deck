@@ -1,0 +1,83 @@
+/* * {
+    box-sizing: border-box;
+} */
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background: #ffffff;
+    text-align: center;
+}
+.logodiv{
+    width:150px;
+}
+
+.loginform 
+{
+
+    position: absolute;
+    top: 25%;
+    left: 38%;
+    transform: translate(-25%, -38%) width: 400px;
+    padding: 30px 50px;
+    border-radius: 10px;
+    background: #ececec;
+    box-shadow: 10px 10px 15px #c7c4c4, -10px -10px 15px #fff;
+}
+
+.loginform h1 {
+    font-size: 36px;
+    background: rgb(178, 178, 211);
+    margin-top: 5px;
+}
+
+.loginform input {
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 20px 25px;
+    border: none;
+    outline: none;
+    font-size: 24px;
+    background: #ececec;
+    box-shadow: 10px 10px 15px #c7c4c4, inset -10px -10px 15px #fff;
+}
+
+.loginform button {
+    width: 100%;
+    margin-bottom: 80px;
+    padding: 20px 0;
+    border: none;
+    border-radius: 50px;
+    font-size: 20px;
+    color: rgb(7, 164, 255);
+    background: #ececec;
+    box-shadow: 10px 10px 15px #c7c4c4, inset -10px -10px 15px #fff;
+
+}
+
+.loginform button:hover {
+    color: #000000;
+    cursor: pointer;
+    box-shadow: 10px 10px 15px #0a0808, inset -10px -10px 15px rgb(255, 255, 255);
+}
+
+.loginform span {
+    color: #999;
+    font-size: 16px;
+    display: block;
+}
+
+.loginform span a {
+    text-decoration: none;
+}
+
+.loginform span a:hover {
+    color: black;
+}
+.logo{
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 20px 25px;
+    border: none;
+    outline: none;
+}
